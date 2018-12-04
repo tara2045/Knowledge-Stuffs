@@ -1,8 +1,19 @@
+Spring Boot tutorial that I am following:
+                http://www.java2novice.com/spring-boot/
+                
+
 1.  To run spring boot through command line- 
         You will need to build the jar file first. Here is the syntax to run the main class from a jar file.
               1st step:  java -jar path/to/your/jarfile.jar fully.qualified.package.Application
               2nd step:  mvn package && java -jar target/gs-spring-boot-0.1.0.jar
               3rd step:  curl localhost:8080/readiness 
+        Also you can pass configuration related properties through command line as shown below. One of the property in the command line 
+        is changing server port to 9090.
+              java -jar command-line.jar \
+                    --server.port=9090 \
+                    --site.name=java2novice.com
+
+
        
 2.  What will spring boot make: Jar file or War File?   
         Jar
@@ -14,4 +25,11 @@
         /actuator/info
         /actuator
         /actuator/shutdown
+  
+4. How to run spring boot as a standalsone application(non-web)?
+        In spring boot, we need to implement CommandLineRunner interface and override run() method to create standalone application.
+        Since we are creating standalone application, include only "spring-boot-starter" in the pom.xml file. Since it implements 
+        CommandLineRunner interface, So run() method would be the entry point for the code.
+        
+  
         
