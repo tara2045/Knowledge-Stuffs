@@ -1,0 +1,17 @@
+1.  To run spring boot through command line- 
+        You will need to build the jar file first. Here is the syntax to run the main class from a jar file.
+              1st step:  java -jar path/to/your/jarfile.jar fully.qualified.package.Application
+              2nd step:  mvn package && java -jar target/gs-spring-boot-0.1.0.jar
+              3rd step:  curl localhost:8080/readiness 
+       
+2.  What will spring boot make: Jar file or War File?   
+        Jar
+
+3.  If we are using Spring Boot application, then You will see a new set of RESTful end points added to the application. 
+    These are management services provided by Spring Boot. For eg:
+        /error
+        /actuator/health
+        /actuator/info
+        /actuator
+        /actuator/shutdown
+        
