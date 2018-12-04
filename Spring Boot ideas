@@ -31,5 +31,18 @@ Spring Boot tutorial that I am following:
         Since we are creating standalone application, include only "spring-boot-starter" in the pom.xml file. Since it implements 
         CommandLineRunner interface, So run() method would be the entry point for the code.
         
+5.  How to configure logback (SLF4J) logging to spring boot applications?
+        The Spring Boot is using Logback as a default logger. By default, the SLF4j Logging is included in the Spring Boot starter 
+        package. So no additional dependencies are required. You can handle all your logging related configurations with in 
+        "application.properties" file itself. Spring boot also allows you to create standard logback.xml file in the resources directory.
+        This will override the Spring Boot logging template. All you need to do is, specify your logback configuration file in 
+        application.properties as shown below: logging.config=logback.xml
+        
+        Spring boot also provides profile based loggings. As we discussed in the previous pages, we can maintain multiple properties for each
+        profile, so that spring boot will pick the right profile on demand. We can also handle our standard way of xml configurations with 
+        logback.xml file. Spring boot supports these configurations. Create a logback-spring.xml in the root of the classpath, to take 
+        advantage of the templating features provided by Spring Boot with multiple profiles in it.
+        
+        
   
         
