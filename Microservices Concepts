@@ -84,10 +84,21 @@ Fault Tolerance with Hystrix.
 		hosts without managing cross-origin resource sharing (CORS) and authentication for each one. We can integrate Zuul with other Netflix 
 		projects like Hystrix for fault tolerance and Eureka for service discovery, or use it to manage routing rules, filters, and load 
 		balancing across your system.
+		
+##  What are Client certificates?
+		A type of digital certificate that is used by client systems to make authenticated requests to a remote server is known as the client 
+		certificate. Client certificates play a very important role in many mutual authentication designs, providing strong assurances of a 
+		requester’s identity.
 
 ## Annotations used while creating Eureka Server: 
-		@EnableEurekaServer
-		@SpringBootApplication
+		@EnableEurekaServer - allows us to register microservices to the spring cloud.
+		@EnableDiscoveryClient - allows us to query Discovery server to find miroservices.
+		@SpringBootApplication - 
+		@LoadBalanced - 
+		
+##  What is DRY in Microservices architecture?
+		DRY stands for Don’t Repeat Yourself. It basically promotes the concept of reusing the code. This results in developing and sharing
+		the libraries which in turn result in tight coupling.
 		
 		
 ## What is the use of WebMvcTest annotation in Spring MVC applications?
@@ -103,3 +114,19 @@ Fault Tolerance with Hystrix.
 			2. At the middle level, we have tests for exploratory testing like the stress tests and usability tests.
 			3. At the top level, we have acceptance tests that are few in number. These acceptance tests help stakeholders 
 			in understanding and verifying software features.
+			
+##  What is End to End Microservices Testing?
+		End-to-end testing validates each and every process in the workflow is functioning properly. This ensures that the system 
+		works together as a whole and satisfies all requirements.
+
+
+## What do you understand by Semantic monitoring in Microservices architecture?
+		Semantic monitoring, also known as synthetic monitoring combines automated tests with monitoring the application in 
+		order to detect business failing factors.
+			
+##  What is the use of PACT in Microservices architecture?
+		PACT is an open source tool to allow testing interactions between service providers and consumers in isolation against the 
+		contract made so that the reliability of Microservices integration increases.
+			Usage in Microservices:
+				-Used to implement Consumer Driven Contract in Microservices.
+				-Tests the consumer-driven contracts between consumer and provider of a Microservice.
