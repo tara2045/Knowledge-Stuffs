@@ -1,12 +1,14 @@
 https://www.edureka.co/blog/microservices-with-spring-boot   3 wotai service clearly deko cha..
 
-https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star   DZone ko microservices ma Forex Services and Currency Conversion services ko lagi cha, dynamic increase of instance ko concept cha 
+https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star   DZone ko microservices ma Forex Services and Currency 
+Conversion services ko lagi cha, dynamic increase of instance ko concept cha 
 
 ## What are microservices?
-		Microservices are set of services which are fine grained and light weight. In the context of SOA, the services are loosely coupled.
-		The independent services are easy to develop, test, deploy. Services are created using different programming languages, databases.
-		Using microservices, there is chance to continuous delivery and deployment. All the microservices communicates using REST. 
-		Communication can be HTTP or event based. Even though many other jobs are present, Microservices job is unique.
+		Microservices are set of services which are fine grained and light weight. In the context of SOA, the services are 
+		loosely coupled. The independent services are easy to develop, test, deploy. Services are created using different 
+		programming languages, databases. Using microservices, there is chance to continuous delivery and deployment. All the
+		microservices communicates using REST. Communication can be HTTP or event based. Even though many other jobs are present,
+		Microservices job is unique.
 
 		Microservices architecture allows to avoid monolith application for large system.
 		Microservices are the styles that structures an application as a collection of loosely coupled services. 
@@ -42,7 +44,8 @@ https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star   
 Fault Tolerance with Hystrix.
 			
 ## Advantages of using Spring Cloud:
-		1. Ability to handle Service Discovery: This tool manage how processes and services in a cluster can find and talk to one another.
+		1. Ability to handle Service Discovery: This tool manage how processes and services in a cluster can find and talk to 
+		one another.
 		2. Solves the redundancy issues in distributed systems.
 		3. Load balancing: it improves the distribution of workloads across multiple computing resources
 			
@@ -50,7 +53,8 @@ Fault Tolerance with Hystrix.
 			Eureka Server is using Spring Cloud.
 			
 ## Ribbon: Client-Side Load Balancing
-			Based on the load, we can have multiple instances of microservices. Load will be uniformly distributed among these different instances. 
+			Based on the load, we can have multiple instances of microservices. Load will be uniformly distributed among 
+			these different instances. 
 
 ## Hystrix: Fault-tolerance 
 		
@@ -62,7 +66,7 @@ Fault Tolerance with Hystrix.
 ## What Does One Mean By Service Registration And Discovery ?
 		As all services are registered to the Eureka server and hookup done by calling the Eureka Server, any change in service
 		locations need not be handled and is taken care of. 
-		Context: When we start a project, we usually have all the configurations in the properties file. As more and more services
+		Context:When we start a project, we usually have all the configurations in the properties file. As more and more services
 		are developed and deployed, adding and modifying these properties become more complex. Some services might go down, 
 		while some the location might change. This manual changing of properties may create issues. Eureka Service 
 		Registration and Discovery helps in such scenarios.
@@ -79,16 +83,16 @@ Fault Tolerance with Hystrix.
 
 ## Ribbon: Client-Side Load Balancing 			
 ## How To Achieve Server Side Load Balancing Using Spring Cloud?
-		Server side load balancing can be achieved using Netflix Zuul. Zuul is a JVM based router and server side load balancing by Netflix.
-		It provides a single entry to our system, which allows a browser, mobile app, or other user interface to consume services from multiple
-		hosts without managing cross-origin resource sharing (CORS) and authentication for each one. We can integrate Zuul with other Netflix 
-		projects like Hystrix for fault tolerance and Eureka for service discovery, or use it to manage routing rules, filters, and load 
-		balancing across your system.
+		Server side load balancing can be achieved using Netflix Zuul. Zuul is a JVM based router and server side load balancing
+		by Netflix. It provides a single entry to our system, which allows a browser, mobile app, or other user interface to
+		consume services from multiple hosts without managing cross-origin resource sharing (CORS) and authentication for each 
+		one. We can integrate Zuul with other Netflix projects like Hystrix for fault tolerance and Eureka for service discovery, 
+		or use it to manage routing rules, filters, and load balancing across your system.
 		
 ##  What are Client certificates?
-		A type of digital certificate that is used by client systems to make authenticated requests to a remote server is known as the client 
-		certificate. Client certificates play a very important role in many mutual authentication designs, providing strong assurances of a 
-		requester’s identity.
+		A type of digital certificate that is used by client systems to make authenticated requests to a remote server is known as
+		the client certificate. Client certificates play a very important role in many mutual authentication designs, providing
+		strong assurances of a requester’s identity.
 
 ## Annotations used while creating Eureka Server: 
 		@EnableEurekaServer - allows us to register microservices to the spring cloud.
@@ -97,14 +101,14 @@ Fault Tolerance with Hystrix.
 		@LoadBalanced - 
 		
 ##  What is DRY in Microservices architecture?
-		DRY stands for Don’t Repeat Yourself. It basically promotes the concept of reusing the code. This results in developing and sharing
-		the libraries which in turn result in tight coupling.
+		DRY stands for Don’t Repeat Yourself. It basically promotes the concept of reusing the code. This results in developing 
+		and sharing the libraries which in turn result in tight coupling.
 		
 		
 ## What is the use of WebMvcTest annotation in Spring MVC applications?
 		@WebMvcTest(value = ToTestController.class, secure = false)
-		WebMvcTest annotation is used for unit testing Spring MVC Applications in cases where the test objective is to just focus on 
-		Spring MVC Components. 
+		WebMvcTest annotation is used for unit testing Spring MVC Applications in cases where the test objective is to just 
+		focus on Spring MVC Components. 
 		
 ## What are different types of Tests for Microservices?
 		While working with microservices, testing becomes quite complex as there are multiple microservices working together. 
@@ -116,8 +120,8 @@ Fault Tolerance with Hystrix.
 			in understanding and verifying software features.
 			
 ##  What is End to End Microservices Testing?
-		End-to-end testing validates each and every process in the workflow is functioning properly. This ensures that the system 
-		works together as a whole and satisfies all requirements.
+		End-to-end testing validates each and every process in the workflow is functioning properly. This ensures that the 
+		system works together as a whole and satisfies all requirements.
 
 
 ## What do you understand by Semantic monitoring in Microservices architecture?
@@ -125,8 +129,8 @@ Fault Tolerance with Hystrix.
 		order to detect business failing factors.
 			
 ##  What is the use of PACT in Microservices architecture?
-		PACT is an open source tool to allow testing interactions between service providers and consumers in isolation against the 
-		contract made so that the reliability of Microservices integration increases.
+		PACT is an open source tool to allow testing interactions between service providers and consumers in isolation against 
+		the contract made so that the reliability of Microservices integration increases.
 			Usage in Microservices:
 				-Used to implement Consumer Driven Contract in Microservices.
 				-Tests the consumer-driven contracts between consumer and provider of a Microservice.
