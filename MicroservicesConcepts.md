@@ -2,7 +2,7 @@ https://www.edureka.co/blog/microservices-with-spring-boot   3 wotai service cle
 
 https://dzone.com/articles/microservices-with-spring-boot-part-1-getting-star   DZone ko microservices ma Forex Services and Currency 
 Conversion services ko lagi cha, dynamic increase of instance ko concept cha 
-https://dzone.com/articles/spring-boot-microservices-building-microservices-a  This one also shows simple architecture of microservice with simple example. 
+
 
 ## What are microservices?
 		Microservices are set of services which are fine grained and light weight. In the context of SOA, the services are 
