@@ -1,3 +1,5 @@
+https://www.guru99.com/must-know-linux-commands.html this is nice to understand with examples.
+
 https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
 
 
