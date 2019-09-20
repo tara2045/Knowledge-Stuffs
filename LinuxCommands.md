@@ -308,7 +308,7 @@ cd sourcecode
 ./configure
 make
 make install
-11 – SEARCH
+# 11 – SEARCH
 ## Search for pattern in file
 grep pattern file
 
@@ -323,7 +323,7 @@ find /home/john -name 'prefix*'
 
 ## Find files larger than 100MB in /home
 find /home -size +100M
-12 – SSH LOGINS
+# 12 – SSH LOGINS
 ## Connect to host as your local username.
 ssh host
 
@@ -332,7 +332,7 @@ ssh user@host
 
 ## Connect to host using port
 ssh -p port user@host
-13 – FILE TRANSFERS
+# 13 – FILE TRANSFERS
 ## Secure copy file.txt to the /tmp folder on server
 scp file.txt server:/tmp
 
@@ -347,7 +347,7 @@ rsync -a /home /backups/
 
 ## Synchronize files/directories between the local and remote system with compression enabled
 rsync -avz /home server:/backups/
-14 – DISK USAGE
+# 14 – DISK USAGE
 ## Show free and used space on mounted filesystems
 df -h
 
@@ -362,7 +362,7 @@ du -ah
 
 ## Display total disk usage off the current directory
 du -sh
-15 – DIRECTORY NAVIGATION
+# 15 – DIRECTORY NAVIGATION
 ## To go up one level of the directory tree.  (Change into the parent directory.)
 cd ..
 
